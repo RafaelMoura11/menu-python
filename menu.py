@@ -1,3 +1,5 @@
+import os
+
 class Escola:
     def __init__ (self):
         self.turma = []
@@ -56,6 +58,8 @@ escolhas = {
     "6": escolinha.salvarNota,
     "7": escolinha.sair,
 }
+
+os.system("cls || clear")
 
 while True:
     escolinha.mostrar_menu()
