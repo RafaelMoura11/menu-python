@@ -1,10 +1,10 @@
 class Escola:
-    def _init_ (self):
+    def __init__ (self):
         self.turma = []
         self.professor = []
         self.estudante = []
         self.notaSalva = []
-        self.consultarNota = []
+        self.nota = []
     
     def mostrar_menu(self):
         print("\nEscolha uma opção:")
